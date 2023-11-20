@@ -1,0 +1,121 @@
+.content-wrapper {
+    width: 100%;
+    background-color: #e6e6e6;
+    box-shadow: 0px 4px 4px #00000040;
+    padding: 50px 50px;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1600px;
+    margin: auto;
+}
+
+@media (max-width: 1190px){
+    .content-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}
+
+.left-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-content button {
+    background-color: #0e855e;
+    width: 38px;
+    border: none;
+    padding: 32px 0;
+}
+
+.carousel-button:first-child {
+    border-radius: 20px 0 0 20px;
+}
+
+.carousel-button:last-child {
+    border-radius: 0 20px 20px 0;
+}
+
+.left-content button img {
+    height: 44px;
+    width: 38px;
+}
+
+.left-content>img {
+    width: 493px;
+    height: 297px;
+    box-shadow: 0px 4px 4px #00000040;
+    border-radius: 20px;
+}
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: -4px 4px 4px 5px #00000040;
+    padding: 10px 14px;
+    width: 480px;
+}
+
+.card:first-child {
+    margin-bottom: 37px;
+}
+
+.card>img {
+    width: 117px;
+    height: 117px;
+    border-radius: 100px;
+    margin-right: 20px;
+}
+
+.card * {
+    margin: 0;
+}
+
+.button-content {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.card-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.card-description p {
+    font-size: 15px;
+}
+
+.card-description button {
+    position: relative;
+    height: 22px;
+    border: none;
+    background-color: #0e855e;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: white;
+    line-height: 22px;
+    padding: 0 30px;
+}
+
+.card-description img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}

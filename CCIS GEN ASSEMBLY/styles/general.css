@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+* a {
+    text-decoration: none;
+    color: black;
+}
+
+* p {
+    margin: 0;
+}
+
+.top-section {
+    background-image: url(backgrounds/hero-image.png);
+    height: 526px;
+    position: relative;
+}
+
+table {
+    border-collapse: collapse;
+}

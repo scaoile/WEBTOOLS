@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+* a {
+    color: white;
+    text-decoration: none;
+}
+
+.top-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-image: url(backgrounds/hero-image.png);
+}

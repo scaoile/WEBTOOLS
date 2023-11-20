@@ -1,0 +1,58 @@
+.header {
+    background-color: rgba(255, 202, 106, 0.70);
+    backdrop-filter: blur(15px);
+    height: 66px;
+    padding: 0 40px;
+    width: 100%;
+    top: 0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.left-section-text {
+    float: left;
+    display: inline-block;
+    margin: 12.5px 0 0 10px;
+}
+
+.left-section:first-of-type img {
+    height: 50px;
+    margin: 8px 0;
+    float: left;
+}
+
+.left-section-text h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.right-section {
+    height: auto;
+    float: right;
+    width: 55%;
+}
+
+.right-section img {
+    height: 36px;
+    float: right;
+    margin: 15px 0 15px 15px;
+}
+
+.nav {
+    display: inline-block;
+    margin: 19.5px 0;
+    font-size: clamp(0.625rem, 0.357rem + 0.714vw, 1rem);
+    float: right;
+}
+
+.right-section a {
+    box-shadow: 0px 4px 4px #00000040;
+    display: inline-block;
+    height: 27px;
+    width: 8vw;
+    color: white;
+    border-radius: 10px;
+    background-color: #0E855E;
+    padding-top: 5px;
+    text-align: center;
+    margin: 0 4px;
+}

@@ -1,0 +1,123 @@
+.content-section {
+    height: 377px;
+    background-color: #e6e6e6;
+    box-shadow: 0px 4px 4px #00000040;
+    padding: 37px 40px;
+}
+
+.left-content {
+    width: 50%;
+    position: relative;
+}
+
+.left-content-wrapper {
+    position: absolute;
+    top: 0;
+}
+
+.left-content img {
+    height: 305px;
+    width: 493px;
+    object-fit: cover;
+    box-shadow: 0px 4px 4px #00000040;
+    border-radius: 20px;
+}
+
+.left-content-featured {
+    position: relative;
+    width: 493px;
+    margin-left: 50px;
+}
+
+.left-content-carousel-button, .right-content-carousel-button {
+    font-size: 36px;
+    border: none;
+    background-color: #0e855e;
+    padding: 31px 0;
+    width: 38px;
+    position: absolute;
+}
+
+.left-content-carousel-button {
+    border-radius: 20px 0 0 20px;
+    top: 110px;
+    left: -38px;
+}
+
+.right-content-carousel-button {
+    border-radius: 0 20px 20px 0;
+    top: 110px;
+    right: -37px;
+}
+
+.right-content {
+    padding-left: 80px;
+    width: 50%;
+}
+
+.right-content img {
+    height: 117px;
+    border-radius: 60px;
+    margin-right: 10px;
+    z-index: 100;
+    position: absolute;
+}
+
+.right-content * {
+    display: inline-block;;
+}
+
+.card {
+    height: 129px;
+    width: 479px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: -4px 4px 4px 5px #00000040;
+    margin-bottom: 37px;
+    padding: 6px 14px;
+    position: relative;
+}
+
+.rectangle {
+    background-color: #06973f;
+    height: 95px;
+    width: 71px;
+    z-index: 1;
+    top: 18px;
+    left: 0;
+    position: absolute;
+}
+
+.card-description {
+    width: 65%;
+    position: absolute;
+    top: 20px;
+    z-index: 3;
+    right: 20px;
+}
+
+.card-description h3 {
+    margin: 0 0 5px;
+    font-size: 17px;
+}
+
+.card-description p {
+    font-size: 14px;
+}
+
+.card-description button {
+    position: absolute;
+    bottom: -25px;
+    right: 20px;
+    height: 23px;
+    width: 138px;
+    border: none;
+    color: white;
+    background-color: #0e855e;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px #00000040;
+}
+
+.card-description strong {
+    color: black;
+}

@@ -1,0 +1,30 @@
+.hero-wrapper {
+    margin: 0 15%;
+}
+
+.hero-content {
+    width: 100%;
+}
+
+.text-wrapper {
+    background-color: rgba(217, 217, 217, 0.2);
+    border-radius: 20px;
+    width: 30%;
+    padding: 4px 17px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 78px;
+    margin-bottom: 22px;
+    min-width: 480px;
+    max-width: 480px;
+}
+
+.text-wrapper h1 {
+    text-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.text-wrapper p {
+    text-align: end;
+    text-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25);
+}
